@@ -22,4 +22,4 @@ df_final = df[['Nome completo', 'IMC']]
 
 print(df_final)
 
-df_final.to_csv('[lucasFreireMota].txt', header = False, index=True, sep=" ")
+df_final.to_csv('lucasFreireMota.txt', header = False, index=True, sep=" ")
