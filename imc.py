@@ -28,8 +28,9 @@ df['Nome completo'] = df.apply(lambda x: x['Primeiro Nome'] + ' ' +  x['Sobrenom
 if 'rrrrrr' in df['Nome completo'][82]:
   df['Nome completo'] = df['Nome completo'].str.replace('rrrrrr', "rr")
 
-if 'Sregio' in df['Nome completo'][52]:
-  df['Nome completo'] = df['Nome completo'].str.replace("Sregio", "sergio")
+
+if 'Sregio' in df['Nome completo'][51]:
+  df['Nome completo'] = df['Nome completo'].str.replace("Sregio", "Sergio")
 
 # Nomes em maiúsculo
 df['Nome completo'] = df['Nome completo'].str.upper()
